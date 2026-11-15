@@ -33,29 +33,14 @@
 
 Commercial, cloud-hosted Metadata Tagging and Categorization platforms. These are not open-source but are included as reference points for feature comparison.
 
-### Clarifai
-**Type:** Computer vision AI platform for image and video recognition
-Clarifai provides pre-trained and custom models for image and video recognition, enabling automatic tagging, classification, and detection. It is positioned for businesses wanting to enrich media libraries with AI-generated metadata without building ML infrastructure.
-
-### Amazon Rekognition
-**Type:** AWS managed image and video analysis
-Amazon Rekognition provides object and scene detection, facial analysis, text detection, and content moderation as a managed AWS service [citation:9]. It is the natural choice for organizations already on AWS wanting to add vision-based tagging to their media pipelines.
-
-### Google Cloud Video Intelligence
-**Type:** Video analysis with shot and entity detection
-Google Cloud Video Intelligence API extracts metadata from videos, including shot changes, explicit content, speech transcription, and entity detection. It is positioned for media companies and platforms needing automated video enrichment at scale.
-
-### Azure AI Vision
-**Type:** Computer vision with OCR and image analysis
-Azure AI Vision (formerly Computer Vision) provides image analysis, OCR, and spatial analysis capabilities, generating descriptive tags and categories. It is the natural choice for Microsoft-centric organizations wanting vision AI integrated into their Azure workflows [citation:9].
-
-### Cloudinary
-**Type:** Media management with AI-powered tagging
-Cloudinary provides media asset management with automatic tagging, categorization, and transformation capabilities. It is positioned for web and mobile teams wanting to manage, optimize, and enrich media assets at scale.
-
-### Bynder DAM
-**Type:** Digital asset management with AI metadata
-Bynder provides a DAM platform with AI-powered auto-tagging, facial recognition, and metadata management. It is positioned for brand and marketing teams needing a centralized, searchable library of approved assets.
+| Platform | Type / Focus | Starting Tier Pricing | Free Tier / Trial Limits |
+| :--- | :--- | :--- | :--- |
+| **Amazon Rekognition** | AWS managed image & video analysis | $1.00 / 1,000 images (first 1M images); $0.10 / min video | 1,000 images/month free for 12 months (Group 1 & 2 APIs each) + 1,000 face vectors |
+| **Azure AI Vision** | Cloud computer vision with OCR & tagging | $1.00 / 1,000 transactions (Standard S1 tier) | 5,000 transactions/month free forever (F0 tier, capped at 20 TPM) |
+| **Google Cloud Video Intelligence** | Video analysis, shot changes & label detection | $0.10 / minute of video analyzed | 1,000 minutes of stored & streaming video processing free per month |
+| **Cloudinary** | Media asset management & AI transformation | $89/month (Plus plan, 225 credits/month) | 25 credits/month free forever (up to 25k transformations, 25GB storage, or 25GB bandwidth; 3 users) |
+| **Clarifai** | Computer vision AI platform for images & video | $30/month (Essential plan) | 1,000 operations & 1,000 inputs/month free forever (Community plan; 1 application) |
+| **Bynder DAM** | Digital asset management with AI auto-tagging | ~$450/month (Entry tier, billed annually ~$5,400/yr) | 14-day free trial (sales-assisted proof-of-concept environment; no self-serve free plan) |
 
 ---
 
