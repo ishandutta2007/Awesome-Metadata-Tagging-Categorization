@@ -1,189 +1,254 @@
-# Awesome-Metadata-Tagging-Categorization
+# 🏷️ Awesome Metadata Tagging & Categorization
 
-# Awesome Metadata Tagging & Categorization
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Metadata Tagging and Categorization Banner" width="100%" />
+</p>
 
-> A curated list of top Metadata Tagging and Categorization platforms — both SaaS/Hosted commercial AI vision and DAM services and open-source alternatives for enriching files, images, and text with structured metadata.
-> 🌟 Star this repo if you find it useful! 🌟
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Metadata-Tagging-Categorization/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Metadata-Tagging-Categorization?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Metadata-Tagging-Categorization/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Metadata-Tagging-Categorization?style=social" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
+
+> 🌟 **A curated directory of top Metadata Tagging, Content Categorization, Digital Asset Management (DAM), and Computer Vision AI solutions** — featuring enterprise SaaS APIs, commercial platforms, and powerful self-hosted open-source software for enriching files, photos, videos, and text with automated semantic metadata.
+> 
+> 💡 *Star this repository to keep track of the latest innovations in AI tagging, automated classification, and asset management.*
 
 ---
 
-## 📋 Table of Contents
+## 📑 Table of Contents
 
-- [Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
-- [SaaS / Hosted Platforms](#-saas--hosted-platforms)
-- [Open-Source Software](#-open-source-software)
-  - [TagSpaces](#tagspaces)
-  - [TagStudio](#tagstudio)
-  - [ResourceSpace](#resourcespace)
-  - [openmoderate](#openmoderate)
-  - [spaCy](#spacy)
-  - [Deep Learning Streamer (DL Streamer)](#deep-learning-streamer-dl-streamer)
-  - [Damask](#damask)
-  - [Ginco](#ginco)
-  - [Re3gistry](#re3gistry)
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🟦 SaaS / Hosted Platforms](#-saas--hosted-platforms)
+- [🟩 Open-Source Software](#-open-source-software)
+  - [Immich](#immich-)
+  - [Paperless-ngx](#paperless-ngx-)
+  - [PhotoPrism](#photoprism-)
+  - [spaCy](#spacy-)
+  - [TagStudio](#tagstudio-)
+  - [TagSpaces](#tagspaces-)
+  - [ExifTool](#exiftool-)
+  - [Sveltia CMS](#sveltia-cms-)
+  - [Deep Learning Streamer (DL Streamer)](#deep-learning-streamer-dl-streamer-)
+  - [DAMASK](#damask-)
+  - [ResourceSpace](#resourcespace-)
+  - [GINCO](#ginco-)
+  - [Re3gistry](#re3gistry-)
+  - [openmoderate](#openmoderate-)
+- [📊 Comparison at a Glance](#-comparison-at-a-glance)
+- [📈 Star History](#-star-history)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
 
 ---
 
 ## 📊 Sector Overview & Market Dynamics
 
-The global metadata tagging, digital asset management (DAM), and computer vision market is estimated at **$15B–$23B+** (with DAM specifically accounting for $4B–$6.5B and enterprise metadata management reaching $11B–$14.5B), expanding at a 14%–20% CAGR. The sector exhibits a **moderately fragmented and layered** competitive structure: cloud hyperscalers (Microsoft, Google, AWS) dominate underlying baseline vision APIs and infrastructure, while an active, fragmented layer of specialized DAM, media pipeline, and vertical AI vendors capture domain-specific workflow and brand categorization needs rather than a single winner-take-all monopoly.
+The global metadata tagging, digital asset management (DAM), and computer vision market is estimated at **$15B–$23B+** (with DAM specifically accounting for $4B–$6.5B and enterprise metadata management reaching $11B–$14.5B), expanding at a rapid 14%–20% CAGR. The sector exhibits a **moderately fragmented and layered** competitive structure: cloud hyperscalers (Microsoft, Google, AWS) dominate underlying baseline vision APIs and infrastructure, while an active, fragmented ecosystem of specialized DAM, media pipeline, and vertical AI vendors capture domain-specific workflows, enterprise governance, and brand categorization needs rather than a single winner-take-all monopoly.
 
 ---
 
 ## 🟦 SaaS / Hosted Platforms
 
-Commercial, cloud-hosted Metadata Tagging and Categorization platforms. These are not open-source but are included as reference points for feature comparison.
+Commercial, cloud-hosted Metadata Tagging and Categorization platforms. These are included as reference points for enterprise capabilities and cost benchmarking.
 
 | Platform | Type / Focus | Market Cap / Valuation / Revenue | Starting Tier Pricing | Free Tier / Trial Limits |
 | :--- | :--- | :--- | :--- | :--- |
-| **Azure AI Vision** | Cloud computer vision with OCR & tagging | ~$3.1T Market Cap (Microsoft) | $1.00 / 1,000 transactions (Standard S1 tier) | 5,000 transactions/month free forever (F0 tier, capped at 20 TPM) |
+| **Azure AI Vision** | Cloud computer vision with OCR & semantic tagging | ~$3.1T Market Cap (Microsoft) | $1.00 / 1,000 transactions (Standard S1 tier) | 5,000 transactions/month free forever (F0 tier, capped at 20 TPM) |
 | **Google Cloud Video Intelligence** | Video analysis, shot changes & label detection | ~$2.1T Market Cap (Alphabet) | $0.10 / minute of video analyzed | 1,000 minutes of stored & streaming video processing free per month |
 | **Amazon Rekognition** | AWS managed image & video analysis | ~$2.0T Market Cap (Amazon) | $1.00 / 1,000 images (first 1M images); $0.10 / min video | 1,000 images/month free for 12 months (Group 1 & 2 APIs each) + 1,000 face vectors |
 | **Cloudinary** | Media asset management & AI transformation | $2B Valuation (~$100M+ ARR) | $89/month (Plus plan, 225 credits/month) | 25 credits/month free forever (up to 25k transformations, 25GB storage, or 25GB bandwidth; 3 users) |
 | **Clarifai** | Computer vision AI platform for images & video | $775M Valuation (~$16M ARR) | $30/month (Essential plan) | 1,000 operations & 1,000 inputs/month free forever (Community plan; 1 application) |
-| **Bynder DAM** | Digital asset management with AI auto-tagging | ~$600M Valuation (~$130M ARR) | ~$450/month (Entry tier, billed annually ~$5,400/yr) | 14-day free trial (sales-assisted proof-of-concept environment; no self-serve free plan) |
+| **Bynder DAM** | Enterprise digital asset management with AI metadata | ~$600M Valuation (~$130M ARR) | ~$450/month (Entry tier, billed annually ~$5,400/yr) | 14-day free trial (sales-assisted proof-of-concept environment; no self-serve free plan) |
 
 ---
 
 ## 🟩 Open-Source Software
 
-Self-hosted, community-driven Metadata Tagging and Categorization tools. The open-source ecosystem spans **local-first file organizers**, **database-driven asset managers**, **content moderation libraries**, **NLP pipelines**, and **reference data registries**.
+Self-hosted, community-driven Metadata Tagging and Categorization tools sorted by GitHub star popularity. The open-source landscape spans **AI-powered photo and document organizers**, **local-first file taggers**, **database-driven asset managers**, **content moderation libraries**, **NLP pipelines**, and **reference data registries**.
 
-### TagSpaces
-**Stack:** React / TypeScript / Electron | **License:** AGPL-3.0
-TagSpaces is a privacy-focused, offline-first file organizer that stores tags and descriptions alongside your files, with no cloud dependency or database lock-in [citation:6][citation:13]. Key characteristics:
-- **File-based tagging**: Tags are stored in filenames or sidecar files, so metadata travels with your files and remains readable by any tool [citation:6]
-- **No vendor lock-in**: Works on local filesystems with sync via Dropbox, Nextcloud, Syncthing, or any sync tool [citation:6]
-- **Multiple views**: Grid, list, gallery, kanban, map, and calendar perspectives [citation:6]
-- **Local AI integration**: Offline AI features powered by Ollama for descriptions, tagging, and chat [citation:6]
-- **Web Clipper**: Browser extension for saving web pages, fragments, and screenshots with tags [citation:6]
+### Immich [![GitHub stars](https://img.shields.io/github/stars/immich-app/immich?style=social&color=white)](https://github.com/immich-app/immich/stargazers)
+**Stack:** TypeScript / Dart / Python / PostgreSQL | **License:** AGPL-3.0 | **GitHub:** [immich-app/immich](https://github.com/immich-app/immich)
+Immich is a high-performance self-hosted photo and video backup solution with rich machine-learning metadata extraction.
+- **Smart Search & Semantic Tagging**: Built-in machine learning models automatically detect objects, faces, scenes, and CLIP-based natural language queries.
+- **Facial Recognition**: Automatically clusters and categorizes faces across thousands of images.
+- **Geocoding & EXIF parsing**: Extracts GPS, camera specs, and reverse-geocodes locations into searchable tags.
+- **Cross-Platform**: Mobile apps (iOS & Android) with background sync and web interface.
+- **Best for:** Self-hosters and photographers wanting an all-in-one Google Photos replacement with local machine learning and instant metadata search.
 
-**Trade-off:** It is a desktop application for organizing local files rather than a server-based DAM—collaboration relies on file sync tools rather than built-in multi-user workflows.
-**Best for:** Individuals and small teams wanting full control over file metadata with offline-first operation and no cloud dependency.
+### Paperless-ngx [![GitHub stars](https://img.shields.io/github/stars/paperless-ngx/paperless-ngx?style=social&color=white)](https://github.com/paperless-ngx/paperless-ngx/stargazers)
+**Stack:** Python / Django / Angular | **License:** GPL-3.0 | **GitHub:** [paperless-ngx/paperless-ngx](https://github.com/paperless-ngx/paperless-ngx)
+Paperless-ngx is a community-driven document management system that transforms physical documents into a searchable archive with automated metadata classification.
+- **Automated Tagging & Matching**: Learns from your tagging habits to automatically assign tags, correspondents, and document types using machine learning.
+- **OCR & Full-Text Search**: Optical Character Recognition via Tesseract extracts text and embedded metadata.
+- **Email & Directory Ingestion**: Ingests scans from network scanners, folders, or email attachments automatically.
+- **Granular Permissions**: Multi-user permissions with audit logging and workflow automation rules.
+- **Best for:** Individuals and businesses wanting to organize and automatically tag scanned documents, receipts, and PDFs without manual filing.
 
-### TagStudio
-**Stack:** Python / Database-driven | **License:** Open Source
-TagStudio is a database-driven digital asset manager that organizes files without altering their physical location, using a non-destructive metadata store [citation:14]. Key characteristics:
-- **Hierarchical tagging**: Supports parent-child relationships, inheritance, and custom color palettes for visual organization [citation:14]
-- **Non-destructive**: Tags and custom fields are attached via a separate database rather than modifying original file headers [citation:14]
-- **Multi-format preview**: Generates thumbnails and playback for images, videos, audio, documents, and archives [citation:14]
-- **Files stay in place**: Organizes without moving or renaming the underlying files [citation:14]
+### PhotoPrism [![GitHub stars](https://img.shields.io/github/stars/photoprism/photoprism?style=social&color=white)](https://github.com/photoprism/photoprism/stargazers)
+**Stack:** Go / Vue.js / TensorFlow / MariaDB | **License:** AGPL-3.0 | **GitHub:** [photoprism/photoprism](https://github.com/photoprism/photoprism)
+PhotoPrism is an AI-powered media library for personal collections and professional photographers that categorizes photos on ingest.
+- **Automatic Image Classification**: Uses pre-trained TensorFlow models to tag images based on scenes, colors, and subject matter without cloud dependencies.
+- **Facial Clustering**: Detects and groups faces with privacy-first local processing.
+- **Places & Maps**: Converts EXIF GPS coordinates into geographic categories, country tags, and interactive maps.
+- **Non-Destructive**: Reads original files without altering file headers or directories.
+- **Best for:** Photographers and homelab users needing automatic visual tagging and geolocation indexing for huge raw and JPEG collections.
 
-**Best for:** Users wanting hierarchical, database-backed tagging while keeping files in their existing locations, accepting a Python-based desktop workflow.
+### spaCy [![GitHub stars](https://img.shields.io/github/stars/explosion/spaCy?style=social&color=white)](https://github.com/explosion/spaCy/stargazers)
+**Stack:** Python / Cython | **License:** MIT | **GitHub:** [explosion/spaCy](https://github.com/explosion/spaCy)
+spaCy is an industrial-strength natural language processing (NLP) library for extracting structured information, categories, and metadata from raw text.
+- **Multilingual Support**: Over 75 languages with 84+ trained pipelines for entity extraction and syntax analysis.
+- **Named Entity Recognition (NER)**: Identifies persons, organizations, locations, dates, and domain-specific concepts for document tagging.
+- **Text Categorization**: Robust classification architecture for routing, sentiment tagging, and multi-label tagging.
+- **Transformer Pipelines**: Seamless integration with Hugging Face transformers, PyTorch, and ONNX.
+- **Best for:** Developers building enterprise text extraction pipelines, metadata enrichment engines, and semantic classifiers.
 
-### ResourceSpace
-**Stack:** PHP / MySQL / Docker | **License:** BSD-3-Clause
-ResourceSpace is a self-hostable digital asset management platform for organizations needing a governed, central home for images, video, documents, and audio [citation:10]. Key characteristics:
-- **Rich metadata**: Structured tagging and metadata search so teams can find assets through search rather than browsing folders [citation:10]
-- **Approval workflows**: Assets carry statuses (Active, Pending Review, Archived) and route through review before being shareable [citation:10]
-- **Granular permissions**: Different teams, partners, or public users see only what they are supposed to [citation:10]
-- **Analytics**: Download activity, usage frequency, and rights exposure tracking [citation:10]
-- **Enterprise features**: SSO and MFA for strict identity requirements [citation:10]
-- **Proven adoption**: Over 500 organizations across 40+ countries, 4.9/5 customer rating [citation:10]
+### TagStudio [![GitHub stars](https://img.shields.io/github/stars/TagStudioDev/TagStudio?style=social&color=white)](https://github.com/TagStudioDev/TagStudio/stargazers)
+**Stack:** Python / Qt / SQLite | **License:** GPL-3.0 | **GitHub:** [TagStudioDev/TagStudio](https://github.com/TagStudioDev/TagStudio)
+TagStudio is a desktop, database-driven digital asset manager that organizes media files with rich metadata without altering file locations.
+- **Hierarchical Tagging**: Supports parent-child tag relationships, inheritance, aliases, and custom color palettes.
+- **Non-Destructive Database**: Metadata and custom attributes are stored in an external SQLite database without writing to file headers.
+- **Multi-Format Preview**: Renders thumbnails, video playback, audio waves, and document previews.
+- **No File Relocation**: Keeps existing folder hierarchies intact.
+- **Best for:** Digital collectors, artists, and creators wanting hierarchical metadata and tag taxonomies without altering local directories.
 
-**Best for:** Museums, charities, universities, NGOs, and brand teams needing a governed DAM with approval workflows and granular permissions, accepting the PHP/MySQL deployment.
+### TagSpaces [![GitHub stars](https://img.shields.io/github/stars/tagspaces/tagspaces?style=social&color=white)](https://github.com/tagspaces/tagspaces/stargazers)
+**Stack:** React / TypeScript / Electron | **License:** AGPL-3.0 | **GitHub:** [tagspaces/tagspaces](https://github.com/tagspaces/tagspaces)
+TagSpaces is an offline-first, privacy-focused file organizer that saves tags directly into file names or adjacent sidecar files.
+- **File-Centric Metadata**: Tags travel with files across drives, cloud storage (Nextcloud, Dropbox, Syncthing), and USB drives.
+- **No Cloud or DB Lock-In**: Works straight on the filesystem with zero database migration worries.
+- **Local AI Integration**: Leverages local Ollama LLMs for automated summaries, descriptions, and file tagging.
+- **Multiple Perspectives**: Grid, list, gallery, kanban, geo-map, and calendar views.
+- **Best for:** Privacy-conscious professionals needing cross-platform, decentralized file tagging that functions fully offline.
 
-### openmoderate
-**Stack:** Python / CLIP / PyTorch | **License:** Open Source (PyPI)
-openmoderate is an open-source, self-hosted image and video content moderation library positioned as an alternative to Amazon Rekognition's DetectModerationLabels [citation:8][citation:15]. Key characteristics:
-- **Zero-shot classification**: Uses CLIP to detect nudity, violence, weapons, hate symbols, drugs, and more without labelled training data [citation:8]
-- **Custom policies in YAML**: Add categories like "gambling" with a few lines of text, no training required [citation:15]
-- **Video support**: Timestamped segments ("weapons at 0:03–0:06") with early stop for fast rejection [citation:15]
-- **Framework integrations**: One line protects uploads in FastAPI, Flask, or Django [citation:15]
-- **Measured accuracy**: 82% recall with 4.2% false positives on a public benchmark of 475 hand-reviewed photos [citation:8]
+### ExifTool [![GitHub stars](https://img.shields.io/github/stars/exiftool/exiftool?style=social&color=white)](https://github.com/exiftool/exiftool/stargazers)
+**Stack:** Perl | **License:** Artistic License / GPL | **GitHub:** [exiftool/exiftool](https://github.com/exiftool/exiftool)
+ExifTool by Phil Harvey is the global gold standard CLI and library for reading, writing, and manipulating multimedia metadata.
+- **Exhaustive Format Support**: Reads and writes EXIF, GPS, IPTC, XMP, JFIF, MakerNotes, ICC Profiles, ID3, and hundreds of proprietary formats.
+- **Batch Processing**: Powerful command-line switches for renaming, mass-tagging, shifting timestamps, and copying metadata between files.
+- **Metadata Sanitization**: Removes privacy-sensitive metadata (GPS coordinates, author names, serial numbers) before publishing.
+- **Ubiquitous Integration**: The underlying engine behind countless DAMs, photography suites, and media pipelines worldwide.
+- **Best for:** Developers, sysadmins, and archivists needing granular, programmatic control over raw media file metadata.
 
-**Trade-off:** Focused on **content moderation** (safety classification) rather than general-purpose descriptive tagging—it identifies policy violations rather than generating rich subject metadata.
-**Best for:** Developers wanting self-hosted, offline content moderation for user uploads without cloud API calls or per-image fees.
+### Sveltia CMS [![GitHub stars](https://img.shields.io/github/stars/sveltia/sveltia-cms?style=social&color=white)](https://github.com/sveltia/sveltia-cms/stargazers)
+**Stack:** Svelte / TypeScript | **License:** MIT | **GitHub:** [sveltia/sveltia-cms](https://github.com/sveltia/sveltia-cms)
+Sveltia CMS is a modern Git-based headless content and digital asset management system designed as a drop-in upgrade for Decap/Netlify CMS.
+- **Asset Management & Tagging**: Full media library interface with categorization, stock photo integration (Unsplash, Pexels), and asset insertion.
+- **Git-Backed Metadata**: Saves all content structure, tags, and taxonomies directly into Git commits (Markdown/YAML/JSON).
+- **Client-Side Speed**: Fast Svelte single-page interface with real-time preview and zero server-side runtime overhead.
+- **Best for:** Web developers and content creators managing static sites and documentation with Git-native asset workflows.
 
-### spaCy
-**Stack:** Python / Cython | **License:** MIT
-spaCy is a production-grade natural language processing library for extracting structured information from text, including named entity recognition (NER), part-of-speech tagging, and text classification [citation:5]. Key characteristics:
-- **75+ languages** with 84 trained pipelines for 25 languages [citation:5]
-- **NER accuracy**: 89.8% on OntoNotes 5.0 with transformer pipelines [citation:5]
-- **Production-ready**: Designed for building end-to-end applications with easy model packaging and deployment [citation:5]
-- **Extensible**: Custom components and attributes, with support for PyTorch and TensorFlow models [citation:5]
+### Deep Learning Streamer (DL Streamer) [![GitHub stars](https://img.shields.io/github/stars/open-edge-platform/dlstreamer?style=social&color=white)](https://github.com/open-edge-platform/dlstreamer/stargazers)
+**Stack:** C++ / Python / GStreamer / OpenVINO | **License:** Apache-2.0 | **GitHub:** [open-edge-platform/dlstreamer](https://github.com/open-edge-platform/dlstreamer)
+Intel DL Streamer is a streaming media analytics framework for constructing live video and audio intelligence pipelines.
+- **Hardware Acceleration**: High-throughput execution optimized across Intel CPU, GPU, and NPU architectures.
+- **Vision-Language Models**: Integrates CLIP, Whisper, and MiniCPM-V directly into real-time GStreamer video pipelines.
+- **Metadata Standards**: Conforms to the GStreamer Analytics metadata specification for cross-pipeline interoperability.
+- **Enterprise Messaging**: Direct metadata telemetry export to Kafka, MQTT, and IoT gateways.
+- **Best for:** Engineers building automated high-throughput video surveillance, QA inspection, and real-time event tagging systems.
 
-**Best for:** Developers extracting entities, categories, and structured metadata from documents and text at scale, accepting the Python/NLP expertise requirement.
+### DAMASK [![GitHub stars](https://img.shields.io/github/stars/damask-multiphysics/DAMASK?style=social&color=white)](https://github.com/damask-multiphysics/DAMASK/stargazers)
+**Stack:** Fortran / Python / C | **License:** GPL-3.0 | **GitHub:** [damask-multiphysics/DAMASK](https://github.com/damask-multiphysics/DAMASK)
+DAMASK (Düsseldorf Advanced Material Simulation Kit) is an open-source framework featuring structured hierarchical data indexing and HDF5-based crystal plasticity metadata categorization.
+- **Scientific Metadata Hierarchies**: Standardized categorization and extraction of complex microstructural spatial data.
+- **HDF5 Integration**: Big-data scientific tagging and schema validation.
+- **Best for:** Materials science researchers and computational physics labs managing large-scale simulation artifacts and crystallographic datasets.
 
-### Deep Learning Streamer (DL Streamer)
-**Stack:** C++ / Python / GStreamer / OpenVINO | **License:** Open Source (Intel)
-DL Streamer is an open-source media analytics framework for building video and audio intelligence pipelines that detect, classify, track, and count objects and events [citation:2]. Key characteristics:
-- **Hardware acceleration**: Runs on Intel CPU, GPU, and NPU from a single codebase [citation:2]
-- **VLM & GenAI ready**: Run Vision-Language Models (MiniCPM-V, CLIP, Whisper) in a GStreamer pipeline [citation:2]
-- **Metadata standard**: Supports GStreamer Analytics metadata library for interoperability [citation:2]
-- **Messaging integration**: Publish inference results to MQTT or Kafka with built-in elements [citation:2]
-- **30+ samples**: Detection, classification, tracking, VLMs, LiDAR, radar, and more [citation:2]
+### ResourceSpace [![GitHub stars](https://img.shields.io/github/stars/resourcespace/resourcespace?style=social&color=white)](https://github.com/resourcespace/resourcespace/stargazers)
+**Stack:** PHP / MySQL / Docker | **License:** BSD-3-Clause | **GitHub:** [resourcespace/resourcespace](https://github.com/resourcespace/resourcespace)
+ResourceSpace is an established enterprise web-based DAM platform used by universities, museums, charities, and global enterprises.
+- **Taxonomies & Structured Metadata**: Controlled vocabularies, auto-suggest tagging, and facet-based indexing.
+- **Governance & Approval Queues**: Role-based permissions, asset statuses (Active, Pending Review, Archived), and rights compliance tracking.
+- **Enterprise Authentication**: Single Sign-On (SSO), multi-factor authentication (MFA), and audit trails.
+- **Best for:** Cultural institutions, universities, and enterprise brand teams needing governed DAM workflows with compliance rules.
 
-**Best for:** Developers building automated video/audio metadata extraction pipelines on Intel hardware, accepting the GStreamer/OpenVINO stack requirements.
+### GINCO [![GitHub stars](https://img.shields.io/github/stars/culturegouv/ginco?style=social&color=white)](https://github.com/culturegouv/ginco/stargazers)
+**Stack:** Java / Web Application | **License:** CeCILL v2 | **GitHub:** [culturegouv/ginco](https://github.com/culturegouv/ginco)
+GINCO (*Gestion Informatisée de Nomenclatures Collaboratives et Ouvertes*) is developed by the French Ministry of Culture for managing controlled vocabularies and semantic thesauri.
+- **Standards Compliant**: Built strictly on the ISO 25964-1:2011 standard with SKOS and RDF exports.
+- **Multilingual Hierarchies**: Supports cross-lingual synonyms, preferred terms, and concept relationships.
+- **Best for:** Libraries, archives, and government ministries curating official taxonomies and semantic thesauri.
 
-### Damask
-**Stack:** Go / SvelteKit / SQLite | **License:** Open Source
-Damask is an automatable digital asset manager for creative studios, with Docker deployment and support for local, SFTP, or S3 storage backends [citation:3]. Key characteristics:
-- **Automatable**: Built for studio workflows with job queues and processing pipelines [citation:3]
-- **Multi-format processing**: ImageMagick for images, FFmpeg for video/audio, LibreOffice for documents, Tesseract for OCR [citation:3]
-- **Storage flexibility**: Local, SFTP, or S3 backends [citation:3]
-- **Team collaboration**: Workspace-based with member invitations [citation:3]
+### Re3gistry [![GitHub stars](https://img.shields.io/github/stars/ec-jrc/re3gistry?style=social&color=white)](https://github.com/ec-jrc/re3gistry/stargazers)
+**Stack:** Java / Web Application | **License:** EUPL v1.1 | **GitHub:** [ec-jrc/re3gistry](https://github.com/ec-jrc/re3gistry)
+Re3gistry is an open-source solution developed by the European Commission (EC-JRC) for managing and sharing reference code lists and registries.
+- **INSPIRE Compliance**: Implements European geospatial and public administration reference data interoperability.
+- **Multi-Format Distribution**: Exports reference schemas in HTML, XML, JSON, RDF, Atom, and CSV formats.
+- **Best for:** Public sector administrations and inter-organizational bodies managing official code registries and identifier lists.
 
-**Best for:** Creative studios wanting a self-hosted DAM with automated processing pipelines, accepting a newer project with a smaller community.
-
-### Ginco
-**Stack:** Java / Web application | **License:** CeCILL v2
-Ginco is an open-source application for creating and managing scientific and technical vocabularies (thesauri, authority lists), built on the ISO 25964-1:2011 standard for concept and term definitions [citation:7]. Key characteristics:
-- **Standards-compliant**: ISO 25964-1:2011 with SKOS export [citation:7]
-- **Multilingual**: Supports multilingual vocabularies and interface (default French) [citation:7]
-- **Role-based access**: Administrator and expert roles [citation:7]
-- **Proven in public sector**: Developed by the French Ministry of Culture [citation:7]
-
-**Best for:** Libraries, archives, and cultural institutions managing controlled vocabularies and thesauri, accepting a Java/web deployment and French-first documentation.
-
-### Re3gistry
-**Stack:** Java / Web application | **License:** EUPL v1.1
-Re3gistry is an open-source tool for managing and sharing reference codes, used extensively by public administrations including the European Commission and governmental organizations across Europe [citation:7]. Key characteristics:
-- **Standards-based**: Designed for INSPIRE compliance and cross-sector reference data sharing [citation:7]
-- **Multi-format export**: HTML, XML, JSON, RDF, Atom, CSV [citation:7]
-- **Role-based access**: Admin and user roles [citation:7]
-- **Proven adoption**: Used by EU and national public administrations [citation:7]
-
-**Best for:** Public administrations and geospatial data communities managing reference code lists and registries, accepting a Java/web deployment.
+### openmoderate [![GitHub stars](https://img.shields.io/github/stars/karammm/openmoderate-image-moderation?style=social&color=white)](https://github.com/karammm/openmoderate-image-moderation/stargazers)
+**Stack:** Python / CLIP / PyTorch | **License:** Apache-2.0 | **GitHub:** [karammm/openmoderate-image-moderation](https://github.com/karammm/openmoderate-image-moderation)
+openmoderate is a lightweight, self-hosted image and video safety categorization library serving as a drop-in alternative to commercial moderation APIs.
+- **Zero-Shot Policy Tagging**: Employs OpenAI's CLIP to classify nudity, violence, weapons, and unsafe content without custom training.
+- **YAML Policy Declarations**: Define custom compliance rules and violation thresholds in simple configuration files.
+- **Web Framework Integrations**: Native middleware support for FastAPI, Flask, and Django uploads.
+- **Best for:** Developers needing cost-free, offline content safety filtering and moderation tagging on user-submitted media.
 
 ---
 
 ## 📊 Comparison at a Glance
 
-| Software | License | Stack | Media Type | AI/Automation | Self-Hosted | Best For |
-|----------|---------|-------|------------|---------------|-------------|----------|
-| **Clarifai** | Proprietary | Cloud | Image/Video | ✅ Pre-trained + custom | ❌ | Vision AI enrichment |
-| **Amazon Rekognition** | Proprietary | Cloud (AWS) | Image/Video | ✅ Managed | ❌ | AWS-native tagging |
-| **Cloudinary** | Proprietary | Cloud | Image/Video | ✅ Auto-tagging | ❌ | Web/mobile media |
-| **TagSpaces** | AGPL-3.0 | React/Electron | Any file | ✅ Local Ollama | ✅ | Offline-first file tags |
-| **TagStudio** | Open Source | Python | Any file | ❌ (Hierarchical) | ✅ | Non-destructive DB tags |
-| **ResourceSpace** | BSD-3-Clause | PHP/MySQL | Any asset | ❌ (Metadata) | ✅ | Governed DAM + workflows |
-| **openmoderate** | Open Source | Python/CLIP | Image/Video | ✅ Zero-shot moderation | ✅ | Content safety |
-| **spaCy** | MIT | Python | Text | ✅ NER + classification | ✅ | Text entity extraction |
-| **DL Streamer** | Open Source | C++/GStreamer | Video/Audio | ✅ Object detection | ✅ | Intel-accelerated analytics |
-| **Damask** | Open Source | Go/Svelte | Any asset | ✅ OCR + processing | ✅ | Creative studio DAM |
+| Software | License | Tech Stack | Media Type | AI / Automated Tagging | Self-Hosted | Primary Focus |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Immich** | AGPL-3.0 | TypeScript / Python | Photos / Videos | ✅ Facial recognition & CLIP search | ✅ | Personal photo/video backup & AI search |
+| **Paperless-ngx** | GPL-3.0 | Python / Angular | Documents / PDFs | ✅ Machine learning document tags & OCR | ✅ | Document archiving & auto-categorization |
+| **PhotoPrism** | AGPL-3.0 | Go / TensorFlow | Photos / Videos | ✅ TensorFlow classification & places | ✅ | Local AI photo library & geocoding |
+| **spaCy** | MIT | Python / Cython | Text / Documents | ✅ NER & custom transformer classifiers | ✅ | Production NLP & structured text extraction |
+| **TagStudio** | GPL-3.0 | Python / Qt | Any File | ❌ (Hierarchical taxonomy) | ✅ | Non-destructive desktop asset organization |
+| **TagSpaces** | AGPL-3.0 | React / Electron | Any File | ✅ Local Ollama LLM integration | ✅ | File-based offline metadata organizer |
+| **ExifTool** | Artistic/GPL | Perl | All Media Files | ❌ (Deep metadata CLI) | ✅ | Universal metadata extraction & batch editing |
+| **Sveltia CMS** | MIT | Svelte / TypeScript | Web Media / Markdown | ❌ (Media manager & stock APIs) | ✅ | Git-backed headless CMS & asset manager |
+| **DL Streamer** | Apache-2.0 | C++ / GStreamer | Video / Audio Streams | ✅ Intel OpenVINO & VLM inference | ✅ | High-throughput streaming analytics |
+| **ResourceSpace** | BSD-3-Clause | PHP / MySQL | Any Asset | ❌ (Metadata schemas & workflows) | ✅ | Enterprise DAM with compliance & approvals |
+| **GINCO** | CeCILL v2 | Java / Web | Thesauri / Taxonomies | ❌ (ISO 25964-1 thesauri curation) | ✅ | Controlled vocabulary & thesaurus management |
+| **Re3gistry** | EUPL v1.1 | Java / Web | Reference Codes | ❌ (Standards-based registry) | ✅ | Reference code lists & INSPIRE registries |
+| **openmoderate** | Apache-2.0 | Python / PyTorch | Images / Videos | ✅ Zero-shot CLIP moderation | ✅ | Offline safety classification & content filters |
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Metadata-Tagging-Categorization&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Metadata-Tagging-Categorization&type=date&legend=top-left)
+
+---
+
+## 💖 Support & Sponsorship
+
+If this curated repository saved you hours of research or inspired your tech stack, please consider supporting the project! 
+
+Here are ways you can help:
+- ⭐ **Star the repo** to help others discover it on GitHub.
+- 🍴 **Fork the repo** to contribute new tools, fixes, or documentation updates.
+- 📢 **Share the repository** with colleagues, DevOps engineers, and data science communities.
+- ☕ **Buy a coffee / Sponsor the author** via the GitHub Sponsors Dashboard:  
+  👉 **[Support on GitHub Sponsors](https://github.com/sponsors/ishandutta2007)**
+
+Your support keeps this directory active, accurate, and continually updated! 🚀
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you know of an open-source Metadata Tagging or Categorization tool that should be listed here, please open a pull request with:
+Contributions are always welcome! If you know of an outstanding open-source metadata tagging, automated categorization, or DAM tool that should be included:
 
-- Project name and URL
-- Brief description (1–2 sentences)
-- Stack and license
-- Why it stands out
+1. Fork this repository.
+2. Create a branch (`git checkout -b feature/new-tool`).
+3. Add the project under the proper section in alphabetical or star-ranked order with license, stack, and standout features.
+4. Open a Pull Request with a short summary explaining why the tool stands out.
 
-Please ensure the project is actively maintained (releases within the last 12 months) and genuinely open-source.
-
-**Note on the open-source ecosystem:** The metadata tagging and categorization space splits between **file-level tagging tools** (TagSpaces for offline-first file metadata, TagStudio for database-driven hierarchical tags), **governed DAM platforms** (ResourceSpace for organizational asset management with workflows), and **AI-powered enrichment libraries** (openmoderate for content safety classification, spaCy for text entity extraction, DL Streamer for video/audio analytics). **TagSpaces** is the strongest choice for individuals wanting full control over file metadata without cloud dependency . **ResourceSpace** is the most complete open-source DAM for organizations needing approval workflows and granular permissions, with proven adoption across 500+ organizations . **openmoderate** fills a specific gap for self-hosted content moderation as an alternative to Amazon Rekognition . No single open-source project replicates the full breadth of Clarifai or Cloudinary's AI-powered media enrichment, but these tools cover the core tagging and categorization workflows for self-hosted deployments.
+Please ensure all submitted projects are actively maintained (updated within the last 12 months) and adhere to open-source licenses.
 
 ---
 
 ## 📄 License
 
-This list is released under CC0 1.0 Universal (Public Domain). The software projects listed retain their respective licenses.
+This repository and curated list are released under the [CC0 1.0 Universal (Public Domain)](https://creativecommons.org/publicdomain/zero/1.0/) license. All listed software products, libraries, and trademarks belong to their respective copyright holders.
 
 ---
 
-⭐ **If this list helped you discover a useful tool, please star the repo!** ⭐
+<p align="center">
+  <sub>Built with ❤️ for developers, data engineers, and archivists worldwide.</sub>
+</p>
