@@ -9,13 +9,8 @@
 
 ## 📋 Table of Contents
 
+- [Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
 - [SaaS / Hosted Platforms](#-saas--hosted-platforms)
-  - [Clarifai](#clarifai)
-  - [Amazon Rekognition](#amazon-rekognition)
-  - [Google Cloud Video Intelligence](#google-cloud-video-intelligence)
-  - [Azure AI Vision](#azure-ai-vision)
-  - [Cloudinary](#cloudinary)
-  - [Bynder DAM](#bynder-dam)
 - [Open-Source Software](#-open-source-software)
   - [TagSpaces](#tagspaces)
   - [TagStudio](#tagstudio)
@@ -26,6 +21,12 @@
   - [Damask](#damask)
   - [Ginco](#ginco)
   - [Re3gistry](#re3gistry)
+
+---
+
+## 📊 Sector Overview & Market Dynamics
+
+The global metadata tagging, digital asset management (DAM), and computer vision market is estimated at **$15B–$23B+** (with DAM specifically accounting for $4B–$6.5B and enterprise metadata management reaching $11B–$14.5B), expanding at a 14%–20% CAGR. The sector exhibits a **moderately fragmented and layered** competitive structure: cloud hyperscalers (Microsoft, Google, AWS) dominate underlying baseline vision APIs and infrastructure, while an active, fragmented layer of specialized DAM, media pipeline, and vertical AI vendors capture domain-specific workflow and brand categorization needs rather than a single winner-take-all monopoly.
 
 ---
 
