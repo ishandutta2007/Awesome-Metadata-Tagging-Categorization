@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Metadata-Tagging-Categorization/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Metadata-Tagging-Categorization?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Metadata-Tagging-Categorization/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Metadata-Tagging-Categorization?style=social" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Metadata-Tagging-Categorization/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Metadata-Tagging-Categorization?style=social" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 </p>
@@ -70,7 +70,7 @@ Commercial, cloud-hosted Metadata Tagging and Categorization platforms. These ar
 
 Self-hosted, community-driven Metadata Tagging and Categorization tools sorted by GitHub star popularity. The open-source landscape spans **AI-powered photo and document organizers**, **local-first file taggers**, **database-driven asset managers**, **content moderation libraries**, **NLP pipelines**, and **reference data registries**.
 
-### Immich [![GitHub stars](https://img.shields.io/github/stars/immich-app/immich?style=social&color=white)](https://github.com/immich-app/immich/stargazers)
+### Immich [![GitHub_Stars](https://img.shields.io/github/stars/immich-app/immich?style=social&color=white)](https://github.com/immich-app/immich/stargazers)
 **Stack:** TypeScript / Dart / Python / PostgreSQL | **License:** AGPL-3.0 | **GitHub:** [immich-app/immich](https://github.com/immich-app/immich)
 Immich is a high-performance self-hosted photo and video backup solution with rich machine-learning metadata extraction.
 - **Smart Search & Semantic Tagging**: Built-in machine learning models automatically detect objects, faces, scenes, and CLIP-based natural language queries.
@@ -79,7 +79,7 @@ Immich is a high-performance self-hosted photo and video backup solution with ri
 - **Cross-Platform**: Mobile apps (iOS & Android) with background sync and web interface.
 - **Best for:** Self-hosters and photographers wanting an all-in-one Google Photos replacement with local machine learning and instant metadata search.
 
-### Paperless-ngx [![GitHub stars](https://img.shields.io/github/stars/paperless-ngx/paperless-ngx?style=social&color=white)](https://github.com/paperless-ngx/paperless-ngx/stargazers)
+### Paperless-ngx [![GitHub_Stars](https://img.shields.io/github/stars/paperless-ngx/paperless-ngx?style=social&color=white)](https://github.com/paperless-ngx/paperless-ngx/stargazers)
 **Stack:** Python / Django / Angular | **License:** GPL-3.0 | **GitHub:** [paperless-ngx/paperless-ngx](https://github.com/paperless-ngx/paperless-ngx)
 Paperless-ngx is a community-driven document management system that transforms physical documents into a searchable archive with automated metadata classification.
 - **Automated Tagging & Matching**: Learns from your tagging habits to automatically assign tags, correspondents, and document types using machine learning.
@@ -88,7 +88,7 @@ Paperless-ngx is a community-driven document management system that transforms p
 - **Granular Permissions**: Multi-user permissions with audit logging and workflow automation rules.
 - **Best for:** Individuals and businesses wanting to organize and automatically tag scanned documents, receipts, and PDFs without manual filing.
 
-### PhotoPrism [![GitHub stars](https://img.shields.io/github/stars/photoprism/photoprism?style=social&color=white)](https://github.com/photoprism/photoprism/stargazers)
+### PhotoPrism [![GitHub_Stars](https://img.shields.io/github/stars/photoprism/photoprism?style=social&color=white)](https://github.com/photoprism/photoprism/stargazers)
 **Stack:** Go / Vue.js / TensorFlow / MariaDB | **License:** AGPL-3.0 | **GitHub:** [photoprism/photoprism](https://github.com/photoprism/photoprism)
 PhotoPrism is an AI-powered media library for personal collections and professional photographers that categorizes photos on ingest.
 - **Automatic Image Classification**: Uses pre-trained TensorFlow models to tag images based on scenes, colors, and subject matter without cloud dependencies.
@@ -97,7 +97,7 @@ PhotoPrism is an AI-powered media library for personal collections and professio
 - **Non-Destructive**: Reads original files without altering file headers or directories.
 - **Best for:** Photographers and homelab users needing automatic visual tagging and geolocation indexing for huge raw and JPEG collections.
 
-### spaCy [![GitHub stars](https://img.shields.io/github/stars/explosion/spaCy?style=social&color=white)](https://github.com/explosion/spaCy/stargazers)
+### spaCy [![GitHub_Stars](https://img.shields.io/github/stars/explosion/spaCy?style=social&color=white)](https://github.com/explosion/spaCy/stargazers)
 **Stack:** Python / Cython | **License:** MIT | **GitHub:** [explosion/spaCy](https://github.com/explosion/spaCy)
 spaCy is an industrial-strength natural language processing (NLP) library for extracting structured information, categories, and metadata from raw text.
 - **Multilingual Support**: Over 75 languages with 84+ trained pipelines for entity extraction and syntax analysis.
@@ -106,7 +106,7 @@ spaCy is an industrial-strength natural language processing (NLP) library for ex
 - **Transformer Pipelines**: Seamless integration with Hugging Face transformers, PyTorch, and ONNX.
 - **Best for:** Developers building enterprise text extraction pipelines, metadata enrichment engines, and semantic classifiers.
 
-### TagStudio [![GitHub stars](https://img.shields.io/github/stars/TagStudioDev/TagStudio?style=social&color=white)](https://github.com/TagStudioDev/TagStudio/stargazers)
+### TagStudio [![GitHub_Stars](https://img.shields.io/github/stars/TagStudioDev/TagStudio?style=social&color=white)](https://github.com/TagStudioDev/TagStudio/stargazers)
 **Stack:** Python / Qt / SQLite | **License:** GPL-3.0 | **GitHub:** [TagStudioDev/TagStudio](https://github.com/TagStudioDev/TagStudio)
 TagStudio is a desktop, database-driven digital asset manager that organizes media files with rich metadata without altering file locations.
 - **Hierarchical Tagging**: Supports parent-child tag relationships, inheritance, aliases, and custom color palettes.
@@ -115,7 +115,7 @@ TagStudio is a desktop, database-driven digital asset manager that organizes med
 - **No File Relocation**: Keeps existing folder hierarchies intact.
 - **Best for:** Digital collectors, artists, and creators wanting hierarchical metadata and tag taxonomies without altering local directories.
 
-### TagSpaces [![GitHub stars](https://img.shields.io/github/stars/tagspaces/tagspaces?style=social&color=white)](https://github.com/tagspaces/tagspaces/stargazers)
+### TagSpaces [![GitHub_Stars](https://img.shields.io/github/stars/tagspaces/tagspaces?style=social&color=white)](https://github.com/tagspaces/tagspaces/stargazers)
 **Stack:** React / TypeScript / Electron | **License:** AGPL-3.0 | **GitHub:** [tagspaces/tagspaces](https://github.com/tagspaces/tagspaces)
 TagSpaces is an offline-first, privacy-focused file organizer that saves tags directly into file names or adjacent sidecar files.
 - **File-Centric Metadata**: Tags travel with files across drives, cloud storage (Nextcloud, Dropbox, Syncthing), and USB drives.
@@ -124,7 +124,7 @@ TagSpaces is an offline-first, privacy-focused file organizer that saves tags di
 - **Multiple Perspectives**: Grid, list, gallery, kanban, geo-map, and calendar views.
 - **Best for:** Privacy-conscious professionals needing cross-platform, decentralized file tagging that functions fully offline.
 
-### ExifTool [![GitHub stars](https://img.shields.io/github/stars/exiftool/exiftool?style=social&color=white)](https://github.com/exiftool/exiftool/stargazers)
+### ExifTool [![GitHub_Stars](https://img.shields.io/github/stars/exiftool/exiftool?style=social&color=white)](https://github.com/exiftool/exiftool/stargazers)
 **Stack:** Perl | **License:** Artistic License / GPL | **GitHub:** [exiftool/exiftool](https://github.com/exiftool/exiftool)
 ExifTool by Phil Harvey is the global gold standard CLI and library for reading, writing, and manipulating multimedia metadata.
 - **Exhaustive Format Support**: Reads and writes EXIF, GPS, IPTC, XMP, JFIF, MakerNotes, ICC Profiles, ID3, and hundreds of proprietary formats.
@@ -133,7 +133,7 @@ ExifTool by Phil Harvey is the global gold standard CLI and library for reading,
 - **Ubiquitous Integration**: The underlying engine behind countless DAMs, photography suites, and media pipelines worldwide.
 - **Best for:** Developers, sysadmins, and archivists needing granular, programmatic control over raw media file metadata.
 
-### Sveltia CMS [![GitHub stars](https://img.shields.io/github/stars/sveltia/sveltia-cms?style=social&color=white)](https://github.com/sveltia/sveltia-cms/stargazers)
+### Sveltia CMS [![GitHub_Stars](https://img.shields.io/github/stars/sveltia/sveltia-cms?style=social&color=white)](https://github.com/sveltia/sveltia-cms/stargazers)
 **Stack:** Svelte / TypeScript | **License:** MIT | **GitHub:** [sveltia/sveltia-cms](https://github.com/sveltia/sveltia-cms)
 Sveltia CMS is a modern Git-based headless content and digital asset management system designed as a drop-in upgrade for Decap/Netlify CMS.
 - **Asset Management & Tagging**: Full media library interface with categorization, stock photo integration (Unsplash, Pexels), and asset insertion.
@@ -141,7 +141,7 @@ Sveltia CMS is a modern Git-based headless content and digital asset management 
 - **Client-Side Speed**: Fast Svelte single-page interface with real-time preview and zero server-side runtime overhead.
 - **Best for:** Web developers and content creators managing static sites and documentation with Git-native asset workflows.
 
-### Deep Learning Streamer (DL Streamer) [![GitHub stars](https://img.shields.io/github/stars/open-edge-platform/dlstreamer?style=social&color=white)](https://github.com/open-edge-platform/dlstreamer/stargazers)
+### Deep Learning Streamer (DL Streamer) [![GitHub_Stars](https://img.shields.io/github/stars/open-edge-platform/dlstreamer?style=social&color=white)](https://github.com/open-edge-platform/dlstreamer/stargazers)
 **Stack:** C++ / Python / GStreamer / OpenVINO | **License:** Apache-2.0 | **GitHub:** [open-edge-platform/dlstreamer](https://github.com/open-edge-platform/dlstreamer)
 Intel DL Streamer is a streaming media analytics framework for constructing live video and audio intelligence pipelines.
 - **Hardware Acceleration**: High-throughput execution optimized across Intel CPU, GPU, and NPU architectures.
@@ -150,14 +150,14 @@ Intel DL Streamer is a streaming media analytics framework for constructing live
 - **Enterprise Messaging**: Direct metadata telemetry export to Kafka, MQTT, and IoT gateways.
 - **Best for:** Engineers building automated high-throughput video surveillance, QA inspection, and real-time event tagging systems.
 
-### DAMASK [![GitHub stars](https://img.shields.io/github/stars/damask-multiphysics/DAMASK?style=social&color=white)](https://github.com/damask-multiphysics/DAMASK/stargazers)
+### DAMASK [![GitHub_Stars](https://img.shields.io/github/stars/damask-multiphysics/DAMASK?style=social&color=white)](https://github.com/damask-multiphysics/DAMASK/stargazers)
 **Stack:** Fortran / Python / C | **License:** GPL-3.0 | **GitHub:** [damask-multiphysics/DAMASK](https://github.com/damask-multiphysics/DAMASK)
 DAMASK (Düsseldorf Advanced Material Simulation Kit) is an open-source framework featuring structured hierarchical data indexing and HDF5-based crystal plasticity metadata categorization.
 - **Scientific Metadata Hierarchies**: Standardized categorization and extraction of complex microstructural spatial data.
 - **HDF5 Integration**: Big-data scientific tagging and schema validation.
 - **Best for:** Materials science researchers and computational physics labs managing large-scale simulation artifacts and crystallographic datasets.
 
-### ResourceSpace [![GitHub stars](https://img.shields.io/github/stars/resourcespace/resourcespace?style=social&color=white)](https://github.com/resourcespace/resourcespace/stargazers)
+### ResourceSpace [![GitHub_Stars](https://img.shields.io/github/stars/resourcespace/resourcespace?style=social&color=white)](https://github.com/resourcespace/resourcespace/stargazers)
 **Stack:** PHP / MySQL / Docker | **License:** BSD-3-Clause | **GitHub:** [resourcespace/resourcespace](https://github.com/resourcespace/resourcespace)
 ResourceSpace is an established enterprise web-based DAM platform used by universities, museums, charities, and global enterprises.
 - **Taxonomies & Structured Metadata**: Controlled vocabularies, auto-suggest tagging, and facet-based indexing.
@@ -165,21 +165,21 @@ ResourceSpace is an established enterprise web-based DAM platform used by univer
 - **Enterprise Authentication**: Single Sign-On (SSO), multi-factor authentication (MFA), and audit trails.
 - **Best for:** Cultural institutions, universities, and enterprise brand teams needing governed DAM workflows with compliance rules.
 
-### GINCO [![GitHub stars](https://img.shields.io/github/stars/culturegouv/ginco?style=social&color=white)](https://github.com/culturegouv/ginco/stargazers)
+### GINCO [![GitHub_Stars](https://img.shields.io/github/stars/culturegouv/ginco?style=social&color=white)](https://github.com/culturegouv/ginco/stargazers)
 **Stack:** Java / Web Application | **License:** CeCILL v2 | **GitHub:** [culturegouv/ginco](https://github.com/culturegouv/ginco)
 GINCO (*Gestion Informatisée de Nomenclatures Collaboratives et Ouvertes*) is developed by the French Ministry of Culture for managing controlled vocabularies and semantic thesauri.
 - **Standards Compliant**: Built strictly on the ISO 25964-1:2011 standard with SKOS and RDF exports.
 - **Multilingual Hierarchies**: Supports cross-lingual synonyms, preferred terms, and concept relationships.
 - **Best for:** Libraries, archives, and government ministries curating official taxonomies and semantic thesauri.
 
-### Re3gistry [![GitHub stars](https://img.shields.io/github/stars/ec-jrc/re3gistry?style=social&color=white)](https://github.com/ec-jrc/re3gistry/stargazers)
+### Re3gistry [![GitHub_Stars](https://img.shields.io/github/stars/ec-jrc/re3gistry?style=social&color=white)](https://github.com/ec-jrc/re3gistry/stargazers)
 **Stack:** Java / Web Application | **License:** EUPL v1.1 | **GitHub:** [ec-jrc/re3gistry](https://github.com/ec-jrc/re3gistry)
 Re3gistry is an open-source solution developed by the European Commission (EC-JRC) for managing and sharing reference code lists and registries.
 - **INSPIRE Compliance**: Implements European geospatial and public administration reference data interoperability.
 - **Multi-Format Distribution**: Exports reference schemas in HTML, XML, JSON, RDF, Atom, and CSV formats.
 - **Best for:** Public sector administrations and inter-organizational bodies managing official code registries and identifier lists.
 
-### openmoderate [![GitHub stars](https://img.shields.io/github/stars/karammm/openmoderate-image-moderation?style=social&color=white)](https://github.com/karammm/openmoderate-image-moderation/stargazers)
+### openmoderate [![GitHub_Stars](https://img.shields.io/github/stars/karammm/openmoderate-image-moderation?style=social&color=white)](https://github.com/karammm/openmoderate-image-moderation/stargazers)
 **Stack:** Python / CLIP / PyTorch | **License:** Apache-2.0 | **GitHub:** [karammm/openmoderate-image-moderation](https://github.com/karammm/openmoderate-image-moderation)
 openmoderate is a lightweight, self-hosted image and video safety categorization library serving as a drop-in alternative to commercial moderation APIs.
 - **Zero-Shot Policy Tagging**: Employs OpenAI's CLIP to classify nudity, violence, weapons, and unsafe content without custom training.
